@@ -17,12 +17,12 @@ Due to the complexity of the project and the busy course-work, I think it's hard
 ### QEMU
 **Linux**:  
 ```
-wget https://download.qemu.org/qemu-9.2.2.tar.xz  
-tar xvJf qemu-9.2.2.tar.xz  
-cd qemu-9.2.2  
-./configure --target-list=riscv32-softmmu,riscv64-softmmu   
-make -j$(nproc)  
-sudo make install  
+wget https://download.qemu.org/qemu-9.2.2.tar.xz
+tar xvJf qemu-9.2.2.tar.xz
+cd qemu-9.2.2
+./configure
+make
+sudo make install
 ```
 If you find some errors when building, you can slove by following hints:  
 - `ERROR: pkg-config binary 'pkg-config' not found` : `sudo apt-get install pkg-config`           
