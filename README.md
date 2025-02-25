@@ -17,9 +17,9 @@ Due to the complexity of the project and the busy course-work, I think it's hard
 ### QEMU
 **Linux**:  
 ```
-wget https://download.qemu.org/qemu-5.0.0.tar.x  
-tar xvJf qemu-5.0.0.tar.xz  
-cd qemu-5.0.0  
+wget https://download.qemu.org/qemu-9.2.2.tar.xz  
+tar xvJf qemu-9.2.2.tar.xz  
+cd qemu-9.2.2  
 ./configure --target-list=riscv32-softmmu,riscv64-softmmu   
 make -j$(nproc)  
 sudo make install  
