@@ -17,7 +17,7 @@ Due to the complexity of the project and the busy course-work, I think it's hard
 ### QEMU
 **Linux**:  
 ```
-wget https://download.qemu.org/qemu-5.0.0.tar.x  
+wget https://download.qemu.org/qemu-5.0.0.tar.xz  
 tar xvJf qemu-5.0.0.tar.xz  
 cd qemu-5.0.0  
 ./configure --target-list=riscv32-softmmu,riscv64-softmmu   
